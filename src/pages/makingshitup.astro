@@ -1,0 +1,223 @@
+---
+import { Markdown } from '$components/Markdown.astro'
+
+---
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Emidblol's Portfolio - Developer in Svelte, Roblox, and JavaScript | Passionate about planes, especially the A330 | Based in Belgium" />
+        <meta name="keywords" content="Emidblol, Developer, Svelte, Roblox, JavaScript, Planes, A330, Belgium" />
+        <meta name="author" content="Emidblol" />
+        <meta name="robots" content="index, follow" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <title>Emidblol - Developer and Plane Enthusiast</title>
+    </head>
+<body class="font-sans bg-gray-100 text-gray-800">
+
+<!-- Navigation bar -->
+<nav class="bg-blue-500 py-4">
+    <div class="container mx-auto flex justify-between items-center">
+        <h1><a href="#" class="text-2xl font-semibold text-white">Emidblol</a></h1>	
+        <ul class="flex space-x-4">
+            <li><a href="#about" class="text-white">About Me</a></li>
+            <li><a href="#skills" class="text-white">Skills</a></li>
+            <li><a href="#portfolio" class="text-white">Portfolio</a></li>
+            <li><a href="#contact" class="text-white">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Hero section -->
+<header class="bg-blue-700 text-white py-16">
+    <div class="container mx-auto text-center">
+        <img src="/public/emidblol.png" alt="Emidblol" class="w-32 h-32 rounded-full mx-auto mb-4">
+        <h1 class="text-4xl font-semibold">Emidblol</h1>
+        <p class="text-lg">Developer in Svelte, Roblox, and JavaScript</p>
+        <p class="text-lg">Passionate about planes, especially the A330</p>
+        <p class="text-lg">Based in Belgium</p>
+        <p class="text-lg"><a href="mailto:contact@emidblol.dev" class="text-blue-300 hover:underline">contact@emidblol.dev</a></p>
+        <p class="text-lg"><a href="https://www.roblox.com/games/13618720700/SCP-Survive" target="_blank" class="text-blue-300 hover:underline">SCP: Survive</a></p>
+        <p class="text-lg"><a href="https://416times.emidblol.dev" target="_blank" class="text-blue-300 hover:underline">416 Times (Newspaper)</a></p>
+    </div>
+</header>
+
+<!-- About Me section -->
+<section id="about" class="py-16">
+    <div class="container mx-auto">
+        <h2 class="text-3xl font-semibold mb-8">About Me</h2>
+        <p class="text-lg">
+            I'm Emidblol, a passionate plane enthusiast with a special fondness for the Airbus A330. I'm also a dedicated SCP nerd, immersing myself in the intriguing world of the SCP Foundation.
+        </p>
+        <p class="text-lg">
+            Alongside my interests, I'm currently a student in secondary school, specializing in economics science. This academic pursuit allows me to explore the economic aspects of various industries, including aviation and gaming.
+        </p>
+        <p class="text-lg">
+            As a developer, I have a strong command of Svelte, Roblox, and JavaScript, enabling me to create exciting projects and contribute to the gaming community. In addition, I own and manage 416 Times, a newspaper where I share my insights and thoughts on various topics.
+        </p>
+        <p class="text-lg">
+            If you'd like to know more about my work, interests, or have any questions, feel free to reach out to me at <a href="mailto:contact@emidblol.dev" class="text-blue-300 hover:underline">contact@emidblol.dev</a>.
+        </p>
+
+        <!-- Add more content here -->
+        <p class="text-lg">
+            I have been captivated by aviation from a young age. The grace and power of airplanes, particularly the Airbus A330, have always fascinated me. Whether it's studying their aerodynamics, following aviation news, or even taking flight lessons, my passion for planes runs deep.
+        </p>
+        <p class="text-lg">
+            On the flip side, I'm an ardent fan of the SCP Foundation. The SCP universe is a collaborative writing project that explores the mysterious and supernatural through a collection of fictional documents. Being a part of the SCP community has allowed me to engage in creative storytelling and world-building.
+        </p>
+        <p class="text-lg">
+            Balancing my passions with my education has been an exciting journey. Currently, I'm pursuing a degree in economics science, where I delve into the intricacies of economic theory, market dynamics, and financial analysis. This academic background complements my interests, allowing me to analyze economic trends in the aviation and gaming industries.
+        </p>
+    </div>
+</section>
+
+<!-- Skills section -->
+<section id="skills" class="bg-gray-200 py-16">
+    <div class="container mx-auto">
+        <h2 class="text-3xl font-semibold mb-8">Skills</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Skill card 1 -->
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <h3 class="text-xl font-semibold mb-2">Programming Languages</h3>
+                <ul class="list-disc list-inside">
+                    <li>JavaScript</li>
+                    <li>Lua</li>
+                </ul>
+            </div>
+            
+            <!-- Skill card 2 -->
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <h3 class="text-xl font-semibold mb-2">Web Development</h3>
+                <ul class="list-disc list-inside">
+                    <li>Svelte</li>
+                    <li>ReactJS</li>
+                    <li>Vanilla JavaScript</li>
+                </ul>
+            </div>
+            
+            <!-- Skill card 3 -->
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <h3 class="text-xl font-semibold mb-2">Database</h3>
+                <ul class="list-disc list-inside">
+                    <li>Firestore</li>
+                </ul>
+            </div>
+            
+            <!-- Add more skill cards as needed -->
+            
+        </div>
+    </div>
+</section>
+
+<!-- Portfolio Projects section -->
+<section id="portfolio" class="bg-gray-100 py-16">
+    <div class="container mx-auto">
+        <h2 class="text-3xl font-semibold mb-8">Portfolio Projects</h2>
+        
+        <!-- Emiblog project card -->
+        <div class="mb-8">
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <h3 class="text-xl font-semibold">Emiblog</h3>
+                <p class="text-lg">Custom social media site.</p>
+                <a href="https://my-first-try-a7cea.web.app" target="_blank" class="text-blue-500 hover:underline">Visit Emiblog</a>
+            </div>
+        </div>
+        
+        <!-- SCP:Survive project card -->
+        <div class="mb-8">
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <h3 class="text-xl font-semibold">SCP:Survive</h3>
+                <p class="text-lg">A roblox PVPVE shooter game where you fight against enemies and SCPs. Lore included</p>
+                <a href="https://www.roblox.com/games/13618720700/SCP-Survive" target="_blank" class="text-blue-500 hover:underline">Visit SCP:Survive</a>
+            </div>
+        </div>
+        
+        <!-- Add more project cards as needed -->
+        
+    </div>
+</section>
+
+<!-- Education section -->
+<section id="education" class="py-16 bg-gray-200">
+    <div class="container mx-auto">
+        <h2 class="text-3xl font-semibold mb-8">Education</h2>
+        <p class="text-lg">
+            Currently studying Economics Science.
+        </p>
+        
+        <!-- Add more education-related content here -->
+        <p class="text-lg">
+            My academic journey has been a rewarding experience. Economics science, with its focus on understanding the behavior of markets and industries, aligns perfectly with my interests. I've had the opportunity to explore various economic theories and their real-world applications, which has expanded my analytical skills.
+        </p>
+    </div>
+</section>
+
+<!-- Work Experience section -->
+<section id="work-experience" class="py-16 bg-gray-100">
+    <div class="container mx-auto">
+        <h2 class="text-3xl font-semibold mb-8">Work Experience</h2>
+        
+        <!-- Contribution to Projects -->
+        <!-- ... (Contribution to Projects content remains the same) -->
+        
+        <!-- 416 Studios -->
+        <!-- ... (416 Studios content remains the same) -->
+        
+        <!-- Add more work experience-related content here -->
+        <p class="text-lg">
+            In addition to my academic and development pursuits, I've had the privilege of collaborating with diverse teams on various open-source projects. These experiences have allowed me to contribute to meaningful projects and learn from talented individuals.
+        </p>
+    </div>
+</section>
+
+<!-- Interests and Hobbies section -->
+<section id="interests" class="py-16 bg-gray-200">
+    <div class="container mx-auto">
+        <h2 class="text-3xl font-semibold mb-8">Interests and Hobbies</h2>
+        <p class="text-lg">
+            Beyond my professional life, I am passionate about aviation and gaming.
+        </p>
+
+        <!-- Add more content about your interests and hobbies -->
+        <p class="text-lg">
+            Aviation isn't just a hobby for me; it's a lifelong fascination. I've taken flight lessons and dream of piloting an Airbus A330 one day. Whether it's watching aviation documentaries or studying flight simulations, my enthusiasm for aviation continues to grow.
+        </p>
+    </div>
+</section>
+
+<!-- Contact Me section -->
+<section id="contact" class="bg-gray-100 py-16">
+    <div class="container mx-auto">
+        <h2 class="text-3xl font-semibold mb-8">Contact Me</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Twitter -->
+            <div class="bg-white rounded-lg shadow-lg p-4 flex items-center space-x-4">
+                <img src="x.png" alt="Twitter" class="w-8 h-auto">
+                <a href="https://twitter.com/emidblol" target="_blank" class="text-blue-500 hover:underline">Twitter</a>
+            </div>
+            
+            <!-- YouTube -->
+            <div class="bg-white rounded-lg shadow-lg p-4 flex items-center space-x-4">
+                <img src="/youtube.png" alt="YouTube" class="w-8 h-auto">
+                <a href="https://youtube.com/@emidblol" target="_blank" class="text-red-500 hover:underline">YouTube</a>
+            </div>
+            
+            <!-- Discord -->
+            <div class="bg-white rounded-lg shadow-lg p-4 flex items-center space-x-4">
+                <img src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a69f118df70ad7828d4_icon_clyde_blurple_RGB.svg" alt="Discord" class="w-8 h-auto">
+                <a href="https://discord.gg/nSMzrtTe3Z" target="_blank" class="text-purple-500 hover:underline">Discord</a>
+            </div>
+            
+            <!-- Email -->
+            <div class="bg-white rounded-lg shadow-lg p-4 flex items-center space-x-4">
+                <img src="email.svg" alt="Email" class="w-8 h-auto">
+                <a href="mailto:contact@emidblol.dev" class="text-gray-500 hover:underline">Email</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
